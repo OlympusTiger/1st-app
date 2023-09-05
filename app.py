@@ -20,7 +20,7 @@ window.setStyleSheet('background:#161219;')
 grid=QGridLayout()
 
 
-image=QPixmap('1st app\\logo.png')
+image=QPixmap('1st-app\\logo.png')
 image=image.scaledToHeight(400)
 logo=QLabel()
 logo.setPixmap(image)
@@ -68,7 +68,7 @@ def frame_main():
     globals_['text']=[]
     globals_['check_ok']=False
 
-    file=open(r'1st app\\names.txt','a+')
+    file=open(r'1st-app\\names.txt','a+')
     globals_['file'].append(file)
 
     widgets['message'][-1].setText('')
