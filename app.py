@@ -11,6 +11,7 @@ from PyQt5.QtGui import QPixmap
 from PyQt5 import QtCore
 from PyQt5.QtGui import QCursor
 
+print("App started")
 
 widgets = {
     "logo": [],
