@@ -12,6 +12,7 @@ from PyQt5 import QtCore
 from PyQt5.QtGui import QCursor
 
 print("App started")
+print("App started again")
 
 widgets = {
     "logo": [],
